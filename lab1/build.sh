@@ -2,6 +2,7 @@
 
 # build COM module
 nasm LAB1.S -fbin -o LAB1.COM
+nasm LAB1.S -fbin -o LAB1BAD.OBJ
 # build EXE module
 nasm -fobj LAB1EXE.S -o LAB1.OBJ
 
